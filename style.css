@@ -1,44 +1,49 @@
+#intro {
+  margin-top: 80px;
+  font-size: 1.2rem;
+}
 
-.intro {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-
+#intro h1 {
   text-align: center;
+  font-size: 4.2rem;
+  font-family: 'Pattaya', sans-serif;
 }
 
-.intro p {
-  font-family: 'Roboto';
-  font-style: bold;
-  font-size: 36px;
-  font-weight: normal;
+#intro p {
+  text-align: right;
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  margin-bottom: 1rem;
+#ukazkaJidelnicku {
+  border: none;
+  margin-top: 20px;
+}
+#intro {
+  margin-top: 80px;
+}
 
-  font-family: 'Roboto';
+#popis {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#popis h6 {
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-top: 10px;
   font-style: italic;
-  font-size: 36px;
-  font-weight: 700;
 }
 
-/* Uvodní komponenta - chci jídelníček */
-.ukazka-jidelnicku,
-img {
-  position: absolute;
-  width: 347.44px;
-  height: 508px;
-
+#popis h5 {
+  font-size: 1.6rem;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
-.ukazka p {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-
+#popis p {
+  text-align: left;
 }
-
-
-section {
-  padding-top: 2rem;
-}
-
