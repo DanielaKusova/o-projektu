@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h1,
 h2 {
   margin-bottom: 1rem;
@@ -22,12 +14,14 @@ h2 {
 .topbar {
   display: flex;
   justify-content: space-between;
+  background-color: grey;
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 64px;
 }
 
 nav {
@@ -37,7 +31,7 @@ nav {
 
 nav a {
   display: block;
-color: black;
+  color: black;
   margin: 1rem;
   border-bottom: 1px solid transparent;
 
@@ -47,10 +41,6 @@ color: black;
 
 nav a:hover {
   border-bottom: 1px solid #ddd;
-}
-
-.nav-closed {
-  display: none;
 }
 
 .nav-btn {
