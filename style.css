@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  width: 1440px;
 }
 
 .banner {
@@ -71,13 +72,25 @@ nav a:hover {
 }
 
 .intro p {
-  font-size: 1.2rem;
+  font-family: 'Roboto';
+  font-style: bold;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 h1 {
   margin-bottom: 1rem;
 
   font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 3rem;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Uvodní komponenta - chci jídelníček */
+.ukazka-jidelnicku {
+  position: absolute;
+  width: 347.44px;
+  height: 508px;
+  background-image: url('./ukazka-jidelnicku.png');
 }
