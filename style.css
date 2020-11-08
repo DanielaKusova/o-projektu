@@ -42,16 +42,3 @@ nav a {
 nav a:hover {
   border-bottom: 1px solid #ddd;
 }
-
-.nav-btn {
-  width: 3rem;
-  height: 3rem;
-  padding: 0;
-  border: none;
-  background-size: contain;
-  cursor: pointer;
-}
-
-.nav-btn:focus {
-  outline: none;
-}
