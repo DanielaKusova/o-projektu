@@ -74,7 +74,8 @@ h1 {
 }
 
 /* Uvodní komponenta - chci jídelníček */
-.ukazka-jidelnicku {
+.ukazka-jidelnicku,
+img {
   position: absolute;
   width: 347.44px;
   height: 508px;
