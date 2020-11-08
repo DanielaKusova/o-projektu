@@ -63,3 +63,21 @@ nav a:hover {
 .nav-btn:focus {
   outline: none;
 }
+.intro {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 3rem;
+}
