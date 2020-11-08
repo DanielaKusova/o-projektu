@@ -5,7 +5,6 @@
 
 .banner {
   padding-top: 0;
-
   background-color: aquamarine;
   background-size: cover;
   background-position: top center;
@@ -21,12 +20,14 @@
 .topbar {
   display: flex;
   justify-content: space-between;
+  background-color: grey;
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 64px;
 }
 
 nav {
@@ -48,22 +49,7 @@ nav a:hover {
   border-bottom: 1px solid #ddd;
 }
 
-.nav-closed {
-  display: none;
-}
 
-.nav-btn {
-  width: 3rem;
-  height: 3rem;
-  padding: 0;
-  border: none;
-  background-size: contain;
-  cursor: pointer;
-}
-
-.nav-btn:focus {
-  outline: none;
-}
 .intro {
   padding-top: 2rem;
   padding-bottom: 2rem;
