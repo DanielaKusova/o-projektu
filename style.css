@@ -78,5 +78,12 @@ h1 {
   position: absolute;
   width: 347.44px;
   height: 508px;
-  background-image: url('./ukazka-jidelnicku.png');
+
 }
+
+.ukazka p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
