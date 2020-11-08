@@ -1,54 +1,3 @@
-* {
-  box-sizing: border-box;
-  width: 1440px;
-}
-
-.banner {
-  padding-top: 0;
-  background-color: aquamarine;
-  background-size: cover;
-  background-position: top center;
-}
-
-.container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: grey;
-}
-
-.navigation {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 64px;
-}
-
-nav {
-  width: 10rem;
-  padding: 1rem;
-}
-
-nav a {
-  display: block;
-  color: black;
-  margin: 1rem;
-  border-bottom: 1px solid transparent;
-
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  border-bottom: 1px solid #ddd;
-}
-
 
 .intro {
   padding-top: 2rem;
@@ -87,4 +36,5 @@ img {
   padding-bottom: 2rem;
 
 }
+
 
