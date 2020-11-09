@@ -47,3 +47,13 @@
 #popis p {
   text-align: left;
 }
+#talir {
+  margin-left: 50px;
+  transform: rotate(90deg);
+  width: max-content;
+}
+#image {
+  padding: 0;
+  background-image: url(./img/talire2.png);
+  background-repeat: no-repeat;
+}
