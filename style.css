@@ -67,7 +67,7 @@ body {
 
 #cta1 {
   font-family: 'Pattaya', sans-serif;
-  color: rgb(199, 13, 0);
+  color: black;
   font-size: 1.8rem;
 }
 #cta2 {
@@ -90,6 +90,47 @@ body {
     padding-left: 10px;
     font-size: 10px;
   }
+  #intro h1 {
+    font-size: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #intro h1 {
+    font-size: 2rem;
+  }
+  #intro p {
+    font-size: 1rem;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  #food {
+    width: 40%;
+    top: -1270px;
+    left: -50px;
+  }
+  #foodDiv {
+    order: 3;
+  }
+  #content {
+    margin: 0;
+  }
+  #aboutApp {
+    order: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+  }
+  #cta1,
+  #cta2 {
+    text-align: right;
+    font-weight: normal;
+  }
+  #cta2 {
+    padding-left: 25%;
+  }
 }
 
 @media (min-width: 540px) and (max-width: 860px) {
@@ -97,5 +138,25 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     font-size: 14px;
+  }
+  #intro h1 {
+    font-size: 3.5rem;
+  }
+  #food {
+    width: 50%;
+    order: 2;
+    top: -1270px;
+    left: -50px;
+  }
+  #foodDiv {
+    order: 3;
+  }
+  #cta1,
+  #cta2 {
+    text-align: right;
+    font-weight: normal;
+  }
+  #cta2 {
+    padding-left: 25%;
   }
 }
