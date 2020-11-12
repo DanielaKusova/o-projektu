@@ -83,6 +83,12 @@ body {
   top: -50px;
   left: -70px;
 }
+
+.fotogalerie {
+  display: flex;
+  justify-content: center;
+}
+
 /*-------respozini design-------*/
 @media (max-width: 540px) {
   #navigace a {
